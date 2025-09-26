@@ -1,0 +1,37 @@
+// Place your key bindings in this file to override the defaults
+[
+    // split window
+    { "key": "ctrl+enter", "command": "workbench.action.splitEditor" },
+    { "key": "ctrl+shift+enter", "command": "workbench.action.splitEditorDown" },
+
+    // movimientos tipo vim con Ctrl+jikl
+    { "key": "ctrl+j", "command": "cursorLeft" },
+    { "key": "ctrl+k", "command": "cursorDown" },
+    { "key": "ctrl+l", "command": "cursorRight" },
+    { "key": "ctrl+i", "command": "cursorUp" },
+    {"key":"ctrl+q","command":"workbench.action.closeEditorsInGroup"},
+
+    // focus en split windows
+    {"key":"ctrl+shift+k","command":"workbench.action.focusBelowGroup"},
+    {"key":"ctrl+shift+i","command":"workbench.action.focusAboveGroup"},
+    {"key":"ctrl+shift+l","command":"workbench.action.focusRightGroup"},
+    {"key":"ctrl+shift+j","command":"workbench.action.focusLeftGroup"},
+
+    // file explorer
+    {"key":"ctrl+y","command":"workbench.action.quickOpen"},
+    {"key":"ctrl+u","command":"actions.find"},
+    {"key":"ctrl+o","command":"workbench.action.findInFiles"},
+
+    // sidebar
+    {"key":"ctrl+shift+space","command":"workbench.action.toggleSidebarVisibility"},
+
+    // referencias
+    {"key":"ctrl+r","command":"editor.action.goToReferences"},
+
+    // redimensionar
+    {"key":"ctrl+left","command":"workbench.action.decreaseViewSize"},
+    {"key":"ctrl+right","command":"workbench.action.increaseViewSize"},
+
+    // terminal
+    {"key":"ctrl+t","command":"workbench.action.terminal.toggleTerminal"}
+]
